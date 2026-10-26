@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ai-gold-sniper-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8522051984:AAFUNietKZGCJ6kvoy2dgYVHOgCVT3Sh56w
+      - key: TELEGRAM_CHAT_ID
+        value: "6637983416"
