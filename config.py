@@ -34,7 +34,7 @@ GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 # Telegram Bot sozlamalari (Foydalanuvchi botiga ulangan)
 TELEGRAM_BOT_TOKEN: str = os.getenv(
     "TELEGRAM_BOT_TOKEN",
-    "8522051984:AAFUNietKZGCJ6kvoy2dgYVHOgCVT3Sh56w",
+    "8796032287:AAHYutAk7yI1WINFHJpz5983bxQZca-rbhQ",
 )
 TELEGRAM_CHAT_ID: str = os.getenv("TELEGRAM_CHAT_ID", "6637983416")
 
